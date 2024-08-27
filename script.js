@@ -44,3 +44,4 @@ window.onerror = function (msg, url, line) {
     alert("Error on line " + line + " in " + url + ":\n" + msg);
     return true;
 }
+generateNews()
