@@ -15,5 +15,11 @@
             <p>Made by Logan Kish</p>
         </footer>
         <script src="script.js"></script>
+        <script>
+            window.onerror = function (msg, url, line) {
+                alert("Error on line " + line + " in " + url + ":\n" + msg);
+                return true;
+            }
+        </script>
     </body>
 </html>
