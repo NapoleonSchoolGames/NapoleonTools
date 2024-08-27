@@ -1,0 +1,22 @@
+header {
+    background-color: white;
+    color: green;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 8%;
+}
+
+.news1, .news2 {
+    padding: 1%;
+    width: 33%;
+}
+.news-title {
+    color: green;
+}
+.news-content {
+    color: gray;
+}
+
