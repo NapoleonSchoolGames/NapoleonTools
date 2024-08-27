@@ -17,7 +17,7 @@ async function generateNews() {
     });
 }
 
-  function createNewsElement(title, content, image) {
+function createNewsElement(title, content, image) {
     const element = document.createElement('div');
     element.classList.add('news');
 
@@ -38,4 +38,9 @@ async function generateNews() {
     element.appendChild(titleElement);
     element.appendChild(contentElement);
     return element;
-  }
+}
+
+window.onerror = function (msg, url, line) {
+    alert("Error on line " + line + " in " + url + ":\n" + msg);
+    return true;
+}
