@@ -2,15 +2,15 @@ async function generateNews() {
     const response = await fetch('./json/news.json');
     const newsData = await response.json();
     const newsContainer1 = document.getElementById('news1');
-    const newsContainer1 = document.getElementById('news2');
-    let nextColumn = newsContainer1
+    const newsContainer2 = document.getElementById('news2');
+    const nextColumn = newsContainer1
     newsData.forEach(news => {
         const newsElement = createNewsElement(news.title, news.content, news.image);
         if (nextColumn == newsContainer1) {
-            let nextColumn = newsContainer2
+            const nextColumn = newsContainer2
             newsContainer1.appendChild(newsElement);
         } else if (nextColumn == newsContainer2) {
-            let nextColumn = newsContainer2
+            const nextColumn = newsContainer2
             newsContainer1.appendChild(newsElement);
         }
         
