@@ -13,7 +13,6 @@ async function generateNews() {
             const nextColumn = newsContainer2
             newsContainer1.appendChild(newsElement);
         }
-        
     });
 }
 

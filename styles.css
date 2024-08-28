@@ -20,17 +20,22 @@ header {
     height: 5%
 }
 
-#news1, #news2 {
-    padding: 1%;
-    width: 33%;
+#newsContainer, #websiteNews {
+    margin-top: 2%;
     position: absolute;
     top: 13%;
 }
 #news1 {
+    width: 40%;
     left: 0;
 }
 #news2 {
+    width: 40%;
     left: 40%
+}
+#websiteNews {
+    width: 20%;
+    left: 80%
 }
 .news-title {
     color: green;
