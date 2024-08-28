@@ -23,6 +23,14 @@ header {
 #news1, #news2 {
     padding: 1%;
     width: 33%;
+    position: absolute;
+    top: 13%;
+}
+#news1 {
+    left: 0;
+}
+#news2 {
+    left: 40%
 }
 .news-title {
     color: green;
