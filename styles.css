@@ -24,6 +24,9 @@ header {
     margin-top: 2%;
     position: absolute;
     top: 13%;
+    border-color: green;
+    border-left: 3%;
+    border-right: 3%
 }
 #news1 {
     width: 40%;
@@ -38,7 +41,12 @@ header {
     left: 80%
 }
 .news {
+    border-top: 1%;
+    border-color: green;
     width: 100%;
+}
+.news-image {
+    width: 100%
 }
 .news-title {
     color: green;

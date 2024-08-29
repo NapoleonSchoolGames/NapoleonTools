@@ -1,8 +1,8 @@
-async function generateNews() {
-    const response = await fetch('./json/news.json');
+async function generateNews(json, element1, element2) {
+    const response = await fetch(json);
     const newsData = await response.json();
-    const newsContainer1 = document.getElementById('news1');
-    const newsContainer2 = document.getElementById('news2');
+    const newsContainer1 = document.getElementById(element1);
+    const newsContainer2 = document.getElementById(element2);
     const nextColumn = newsContainer1
     newsData.forEach(news => {
         const newsElement = createNewsElement(news.title, news.content, news.image);
@@ -21,7 +21,7 @@ function createNewsElement(title, content, image) {
     element.classList.add('news');
 
     const imageElement = document.createElement('img')
-    imageElement.src = "/images/" + image;
+    imageElement.src = "./images/" + image;
     imageElement.classList.add('news-image');
 
 
@@ -39,4 +39,5 @@ function createNewsElement(title, content, image) {
     return element;
 }
 
-generateNews()
+generateNews('./json/school.json', news1, news2)
+generateNews('./json/news.json', websiteNews, websiteNews)
