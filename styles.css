@@ -38,10 +38,12 @@ header {
 #news1 {
     width: 40%;
     left: 0;
+    position: absolute;
 }
 #news2 {
     width: 40%;
-    left: 40%
+    left: 40%;
+    position: absolute;
 }
 #websiteNews {
     width: 20%;
