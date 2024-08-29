@@ -22,12 +22,20 @@
         <footer>
             <p>Made by Logan Kish</p>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="script.js"></script>
         <script>
-            window.onerror = function (msg, url, line) {
-                alert("Error on line " + line + " in " + url + ":\n" + msg);
-                return true;
-            }
+            $(window).on("error", function(evt) {
+
+                console.log("jQuery error event:", evt);
+                var e = evt.originalEvent; // get the javascript event
+                console.log("original event:", e);
+                if (e.message) { 
+                    alert("Error:\n\t" + e.message + "\nLine:\n\t" + e.lineno + "\nFile:\n\t" + e.filename);
+                } else {
+                    alert("Error:\n\t" + e.type + "\nElement:\n\t" + (e.srcElement || e.target));
+                }
+            });
         </script>
     </body>
 </html>
