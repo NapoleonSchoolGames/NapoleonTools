@@ -37,6 +37,9 @@ header {
     width: 20%;
     left: 80%
 }
+.news {
+    width: 100%;
+}
 .news-title {
     color: green;
 }
