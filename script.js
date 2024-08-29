@@ -3,16 +3,11 @@ async function generateNews(json, element1, element2) {
     const newsData = await response.json();
     const newsContainer1 = document.getElementById(element1);
     const newsContainer2 = document.getElementById(element2);
-    const nextColumn = newsContainer1
+    let currentContainer = newsContainer1;
     newsData.forEach(news => {
         const newsElement = createNewsElement(news.title, news.content, news.image);
-        if (nextColumn == newsContainer1) {
-            const nextColumn = newsContainer2
-            newsContainer1.appendChild(newsElement);
-        } else if (nextColumn == newsContainer2) {
-            const nextColumn = newsContainer2
-            newsContainer1.appendChild(newsElement);
-        }
+        currentContainer.appendChild(newsElement); 
+        currentContainer = (currentContainer === newsContainer1) ? newsContainer2 : newsContainer1; 
     });
 }
 
