@@ -39,5 +39,5 @@ function createNewsElement(title, content, image) {
     return element;
 }
 
-generateNews('./json/school.json', news1, news2)
-//generateNews('./json/news.json', websiteNews, websiteNews)
+generateNews('./json/school.json', 'news1', 'news2')
+generateNews('./json/news.json', 'websiteNews', 'websiteNews')
