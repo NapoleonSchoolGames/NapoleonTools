@@ -20,7 +20,9 @@ header {
     height: 5%
 }
 
-#newsContainer, #websiteNews {
+#newsContainer {
+    left: 0;
+    width: 80%;
     margin-top: 2%;
     position: absolute;
     top: 13%;
@@ -38,7 +40,13 @@ header {
 }
 #websiteNews {
     width: 20%;
-    left: 80%
+    left: 80%;
+    margin-top: 2%;
+    position: absolute;
+    top: 13%;
+    border-color: green;
+    border-left: 3%;
+    border-right: 3%
 }
 .news {
     border-top: 1%;
