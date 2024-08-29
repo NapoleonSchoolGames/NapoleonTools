@@ -40,4 +40,4 @@ function createNewsElement(title, content, image) {
 }
 
 generateNews('./json/school.json', news1, news2)
-generateNews('./json/news.json', websiteNews, websiteNews)
+//generateNews('./json/news.json', websiteNews, websiteNews)
