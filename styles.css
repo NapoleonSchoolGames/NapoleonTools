@@ -28,7 +28,7 @@ header {
     left: 0;
     width: 80%;
     margin-top: 2%;
-    position: relative;
+    position: absolute;
     top: 13%;
     border-color: green;
     border-left: 3%;
