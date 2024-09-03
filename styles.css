@@ -28,7 +28,7 @@ header {
     left: 0;
     width: 80%;
     margin-top: 2%;
-    position: absolute;
+    position: relative;
     top: 13%;
     border-color: green;
     border-left: 3%;
@@ -50,12 +50,12 @@ header {
 }
 #news1 {
     width: 50%;
-    left: 0;
+    float: left;
     position: relative;
 }
 #news2 {
     width: 50%;
-    left: 50%;
+    float: left;
     position: relative;
 }
 .news {
