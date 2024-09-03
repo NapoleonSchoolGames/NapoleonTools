@@ -34,16 +34,7 @@ header {
     border-left: 3%;
     border-right: 3%;
     border-style: solid;
-}
-#news1 {
-    width: 40%;
-    left: 0;
-    position: absolute;
-}
-#news2 {
-    width: 40%;
-    left: 40%;
-    position: absolute;
+    height: auto;
 }
 #websiteNews {
     width: 20%;
@@ -55,6 +46,17 @@ header {
     border-left: 3%;
     border-right: 3%;
     border-style: solid;
+    height: auto;
+}
+#news1 {
+    width: 50%;
+    left: 0;
+    position: absolute;
+}
+#news2 {
+    width: 50%;
+    left: 50%;
+    position: absolute;
 }
 .news {
     border-top: 1%;
