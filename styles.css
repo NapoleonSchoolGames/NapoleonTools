@@ -51,14 +51,12 @@ header {
 #news1 {
     width: 50%;
     left: 0;
-    height: auto;
-    position: absolute;
+    position: relative;
 }
 #news2 {
     width: 50%;
     left: 50%;
-    height: auto;
-    position: absolute;
+    position: relative;
 }
 .news {
     border-top: 1%;
