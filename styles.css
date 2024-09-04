@@ -13,6 +13,10 @@ header {
     height: 15%;
 }
 
+header a, p {
+    color: green;
+}
+
 #secondBanner {
     background-color: green;
     color: white;
@@ -22,6 +26,10 @@ header {
     left: 0;
     margin: 0;
     height: 10%;
+}
+
+#secondBanner a, p {
+    color: white;
 }
 
 .bannerItem {
