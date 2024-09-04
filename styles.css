@@ -47,6 +47,7 @@ header a, p {
 
 #secondBanner a, p {
     color: white;
+    font: 125%;
 }
 
 .bannerItem {
@@ -104,6 +105,6 @@ header a, p {
     color: gray;
 }
 .newsArea h2{
-    margin-left: 1%;
+    margin-left: 2%;
     font-size: 130%;
 }
