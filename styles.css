@@ -10,7 +10,7 @@ header {
     top: 0;
     left: 0;
     margin: 0;
-    height: 8%;
+    height: 15%;
 }
 
 #secondBanner {
@@ -21,7 +21,12 @@ header {
     top: 8%;
     left: 0;
     margin: 0;
-    height: 5%
+    height: 10%;
+}
+
+.bannerItem {
+    float: right;
+    margin-right: 8%;
 }
 
 #newsContainer {

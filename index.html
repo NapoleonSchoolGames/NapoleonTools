@@ -2,13 +2,16 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>Home | Napoleon Community Tools</title>
     </head>
     <body>
         <header>
             <img src="./images/NCT.png">
         </header>
         <div id="secondBanner">
-            <p>Hi</p>
+            <p class="bannerItem"><a href="https://ncsdp.powerschool.com/">Powerschool</a></p>
+            <p class="bannerItem"><a href="https://classroom.google.com"></a>Google Classroom</p>
         </div>
         <div id=""></div>
         <div id="newsContainer">
@@ -26,7 +29,6 @@
         <script src="script.js"></script>
         <script>
             $(window).on("error", function(evt) {
-
                 console.log("jQuery error event:", evt);
                 var e = evt.originalEvent;
                 console.log("original event:", e);
