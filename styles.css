@@ -108,3 +108,8 @@ header a, p {
     margin-left: 2%;
     font-size: 130%;
 }
+
+footer {
+    background-color: green;
+    color: white;
+}
