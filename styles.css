@@ -31,7 +31,7 @@ header {
 
 header a, p {
     color: green;
-    font: 125%;
+    font-size: 125%;
 }
 
 #secondBanner {
@@ -47,7 +47,7 @@ header a, p {
 
 #secondBanner a, p {
     color: white;
-    font: 125%;
+    font-size: 125%;
 }
 
 .bannerItem {
