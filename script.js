@@ -4,12 +4,15 @@ async function generateNews(json, element1, element2, amount) {
     const newsContainer1 = document.getElementById(element1);
     const newsContainer2 = document.getElementById(element2);
     let currentContainer = newsContainer1;
+    let displayedCount = 0;
     newsData.forEach(news => {
-        for (let i = 0; i <= amount; i++) {
-            const newsElement = createNewsElement(news.title, news.content, news.image);
-            currentContainer.appendChild(newsElement); 
-            currentContainer = (currentContainer === newsContainer1) ? newsContainer2 : newsContainer1; 
+        if (displayedCount >= amount) {
+            return;
         }
+        const newsElement = createNewsElement(news.title, news.content, news.image);
+        currentContainer.appendChild(newsElement);
+        displayedCount++;
+        currentContainer = (currentContainer === newsContainer1) ? newsContainer2 : newsContainer1;
     });
 }
 
