@@ -1,13 +1,15 @@
-async function generateNews(json, element1, element2) {
+async function generateNews(json, element1, element2, amount) {
     const response = await fetch(json);
     const newsData = await response.json();
     const newsContainer1 = document.getElementById(element1);
     const newsContainer2 = document.getElementById(element2);
     let currentContainer = newsContainer1;
     newsData.forEach(news => {
-        const newsElement = createNewsElement(news.title, news.content, news.image);
-        currentContainer.appendChild(newsElement); 
-        currentContainer = (currentContainer === newsContainer1) ? newsContainer2 : newsContainer1; 
+        for (let i = 0; i <= amount; i++) {
+            const newsElement = createNewsElement(news.title, news.content, news.image);
+            currentContainer.appendChild(newsElement); 
+            currentContainer = (currentContainer === newsContainer1) ? newsContainer2 : newsContainer1; 
+        }
     });
 }
 
@@ -34,5 +36,5 @@ function createNewsElement(title, content, image) {
     return element;
 }
 
-generateNews('./json/school.json', 'news1', 'news2')
-generateNews('./json/news.json', 'websiteNews', 'websiteNews')
+generateNews('./json/school.json', 'news1', 'news2', 8)
+generateNews('./json/news.json', 'websiteNews', 'websiteNews', 4)
