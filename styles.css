@@ -78,7 +78,6 @@ header a, p {
     border-right: 3%;
     border-style: solid;
     height: auto;
-    height: 7%;
 }
 #news1 {
     width: 50%;
@@ -106,7 +105,7 @@ header a, p {
 .news-content {
     color: gray;
 }
-.newsArea h2{
+.newsArea h2, #websiteNews h2{
     margin-left: 2%;
     font-size: 130%;
     height: 7%;
