@@ -60,7 +60,6 @@ header a, p {
     width: 80%;
     margin-top: 2%;
     position: absolute;
-    top: 25%;
     border-color: green;
     border-left: 3%;
     border-right: 3%;
@@ -72,7 +71,7 @@ header a, p {
     left: 80%;
     margin-top: 2%;
     position: absolute;
-    top: 13%;
+    top: 25%;
     border-color: green;
     border-left: 3%;
     border-right: 3%;
