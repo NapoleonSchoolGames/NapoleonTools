@@ -29,9 +29,11 @@ header {
     height: 15%;
 }
 
-header a, p {
+header a, p, img {
     color: green;
     font-size: 125%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #secondBanner {
