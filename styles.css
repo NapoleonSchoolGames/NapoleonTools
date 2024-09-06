@@ -60,7 +60,7 @@ header a, p {
     width: 80%;
     margin-top: 2%;
     position: absolute;
-    top: 13%;
+    top: 25%;
     border-color: green;
     border-left: 3%;
     border-right: 3%;
@@ -108,6 +108,7 @@ header a, p {
 .newsArea h2{
     margin-left: 2%;
     font-size: 130%;
+    height: 10%
 }
 
 /*Horrid css incoming*/
@@ -117,6 +118,6 @@ footer {
     position: absolute;
     width: 100%;
     left: 0;
-    top: calc(15% + 10% + (30vh * 4));
+    top: calc(15% + 10% + 10% + (30vh * 4));
     height: 15%;
 }
