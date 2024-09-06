@@ -55,9 +55,6 @@ header a, p {
     margin-right: 8%;
 }
 
-.newsArea {
-    top: 25%;
-}
 #newsContainer {
     left: 0;
     width: 80%;
@@ -68,6 +65,7 @@ header a, p {
     border-right: 3%;
     border-style: solid;
     height: auto;
+    top: 25%;
 }
 #websiteNews {
     width: 20%;
