@@ -55,6 +55,9 @@ header a, p {
     margin-right: 8%;
 }
 
+.newsArea {
+    top: 25%;
+}
 #newsContainer {
     left: 0;
     width: 80%;
@@ -71,7 +74,7 @@ header a, p {
     left: 80%;
     margin-top: 2%;
     position: absolute;
-    top: 25%;
+    top: 20%;
     border-color: green;
     border-left: 3%;
     border-right: 3%;
@@ -107,7 +110,6 @@ header a, p {
 .newsArea h2, #websiteNews h2{
     margin-left: 2%;
     font-size: 130%;
-    top: 25%;
 }
 
 /*Horrid css incoming*/
