@@ -39,7 +39,7 @@ header a, p {
     color: white;
     width: 100%;
     position: absolute;
-    top: 8%;
+    top: 15%;
     left: 0;
     margin: 0;
     height: 10%;
@@ -110,10 +110,13 @@ header a, p {
     font-size: 130%;
 }
 
+/*Horrid css incoming*/
 footer {
     background-color: green;
     color: white;
-    position: relative;
+    position: absolute;
     width: 100%;
+    left: 0;
+    top: calc(15% + 10% + (30vh * 4));
     height: 15%;
 }
