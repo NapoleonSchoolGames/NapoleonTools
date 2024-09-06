@@ -78,6 +78,7 @@ header a, p {
     border-right: 3%;
     border-style: solid;
     height: auto;
+    height: 7%;
 }
 #news1 {
     width: 50%;
@@ -108,7 +109,7 @@ header a, p {
 .newsArea h2{
     margin-left: 2%;
     font-size: 130%;
-    height: 10%
+    height: 7%;
 }
 
 /*Horrid css incoming*/
