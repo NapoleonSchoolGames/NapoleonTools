@@ -64,10 +64,9 @@ header a, p, img {
     position: absolute;
     border-color: green;
     border-left: 3%;
-    border-right: 3%;
     border-style: solid;
     height: auto;
-    top: 25%;
+    top: 20%;
 }
 #websiteNews {
     width: 20%;
