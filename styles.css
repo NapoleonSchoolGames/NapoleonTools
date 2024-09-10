@@ -56,8 +56,9 @@ header a, p, img {
     position: relative;
     width: 100%;
     margin: 0 auto;
+    margin-top: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -72,7 +73,6 @@ header a, p, img {
     height: auto;
     top: 20%;
 }
-
 #websiteNews {
     width: 20%;
     left: 80%;
@@ -85,19 +85,16 @@ header a, p, img {
     border-style: solid;
     height: auto;
 }
-
 #news1 {
     width: 50%;
     float: left;
     position: relative;
 }
-
 #news2 {
     width: 50%;
     float: left;
     position: relative;
 }
-
 .news {
     border-top: 1%;
     border-color: green;
@@ -105,25 +102,21 @@ header a, p, img {
     border-style: solid;
     height: 30vh;
 }
-
 .news-image {
-    width: 100%;
+    width: 100%
 }
-
 .news-title {
     color: green;
 }
-
 .news-content {
     color: gray;
 }
-
-.newsArea h2, #websiteNews h2 {
+.newsArea h2, #websiteNews h2{
     margin-left: 2%;
     font-size: 130%;
 }
 
-/* Horrid css incoming */
+/*Horrid css incoming*/
 footer {
     background-color: green;
     color: white;
