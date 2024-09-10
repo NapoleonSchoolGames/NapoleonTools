@@ -47,13 +47,18 @@ header a, p, img {
     height: 10%;
 }
 
-.bannerItem {
+#secondBanner a, p {
     color: white;
     font-size: 125%;
+}
+
+.bannerItem {
     float: right;
     margin-right: 8%;
+    position: absolute;
     top: 50%;
-    
+    width: auto;
+    right: auto;
 }
 
 #newsContainer {
