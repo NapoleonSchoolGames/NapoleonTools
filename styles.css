@@ -59,6 +59,7 @@ header a, p, img {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: inline-block;
 }
 
 #newsContainer {
