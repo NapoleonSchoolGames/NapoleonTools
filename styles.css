@@ -56,8 +56,8 @@ header a, p, img {
     position: relative;
     width: 100%;
     margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     display: flex;
     justify-content: space-around;
     align-items: center;
