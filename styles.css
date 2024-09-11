@@ -66,6 +66,35 @@ header a, p, img {
     align-items: center;
 }
 
+.adArea {
+    top: 20%;
+    height: 20%;
+    width: 100%;
+    left: 0;
+}
+#leftAd {
+    width: 50%;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#rightAd {
+    width: 50%;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #newsContainer {
     left: 0;
     width: 80%;
@@ -75,7 +104,7 @@ header a, p, img {
     border-left: 3%;
     border-style: solid;
     height: auto;
-    top: 20%;
+    top: 40%;
 }
 #websiteNews {
     width: 20%;
@@ -127,6 +156,6 @@ footer {
     position: absolute;
     width: 100%;
     left: 0;
-    top: calc(15% + 10% + 10% + (30vh * 4));
+    top: calc(15% + 10% + 10% + 20% + (30vh * 4));
     height: auto;
 }

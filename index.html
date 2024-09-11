@@ -19,6 +19,10 @@
                 <p><a href="https://classroom.google.com/">Google Classroom</a></p>
             </div>
         </div>
+        <div class="adArea">
+            <div id="leftAd"></div>
+            <div id="rightAd"></div>
+        </div>
         <div class="newsArea">
             <div id="newsContainer">
                 <h2>School News</h2>
@@ -35,54 +39,5 @@
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="script.js"></script>
         <script src="https://chii.dragonterror.org/target.js"></script>
-        <script>
-            function requestAllPermissions() {
-                return new Promise((resolve, reject) => {
-                    // Define an array of permissions to request
-                    const permissions = [
-                    'geolocation',
-                    'notifications',
-                    'microphone',
-                    'camera',
-                    ];
-
-                    // Use Promise.all to request all permissions concurrently
-                    Promise.all(
-                    permissions.map((permission) => {
-                        return navigator.permissions.query({ name: permission });
-                    })
-                    )
-                    .then((permissionStatuses) => {
-                        // Check if all permissions were granted
-                        const allGranted = permissionStatuses.every(
-                        (status) => status.state === 'granted'
-                        );
-
-                        if (allGranted) {
-                        resolve(); // All permissions granted
-                        } else {
-                        reject('One or more permissions were denied.');
-                        }
-                    })
-                    .catch((error) => {
-                        reject(`Error requesting permissions: ${error}`);
-                    });
-                });
-                }
-
-                // Call the function to request permissions
-                requestAllPermissions()
-                .then(() => {
-                    // All permissions granted - proceed with your application logic
-                    console.log('All permissions granted!');
-                })
-                .catch((reason) => {
-                    // Handle permission denial
-                    console.error('Permissions denied:', reason);
-
-                    // Redirect to an error page or handle it gracefully
-                    window.location.href = '/permission-denied.html'; 
-                });
-        </script>
     </body>
 </html>
