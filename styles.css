@@ -1,16 +1,4 @@
-/*
- *   <uniquifier>: Use a unique and descriptive class name
- *   <weight>: Use a value from 100 to 900
- *
- *   .work-sans-<uniquifier> {
- *      font-family: "Work Sans", sans-serif;
- *      font-optical-sizing: auto;
- *      font-weight: <weight>;
- *      font-style: normal;
- *   }
- */
-
- * {
+* {
     overflow-x: hidden;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -72,11 +60,12 @@ header a, p, img {
     width: 100%;
     left: 0;
 }
+
 #leftAd {
     width: 50%;
     background-color: blue;
     position: relative;
-    width: 100%;
+    height: 100%;
     margin: 0 auto;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -84,11 +73,12 @@ header a, p, img {
     justify-content: space-around;
     align-items: center;
 }
+
 #rightAd {
     background-color: red;
     width: 50%;
     position: relative;
-    width: 100%;
+    height: 100%;
     margin: 0 auto;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -108,6 +98,7 @@ header a, p, img {
     height: auto;
     top: 40%;
 }
+
 #websiteNews {
     width: 20%;
     left: 80%;
@@ -120,16 +111,13 @@ header a, p, img {
     border-style: solid;
     height: auto;
 }
-#news1 {
+
+#news1, #news2 {
     width: 50%;
     float: left;
     position: relative;
 }
-#news2 {
-    width: 50%;
-    float: left;
-    position: relative;
-}
+
 .news {
     border-top: 1%;
     border-color: green;
@@ -137,21 +125,24 @@ header a, p, img {
     border-style: solid;
     height: 30vh;
 }
+
 .news-image {
-    width: 100%
+    width: 100%;
 }
+
 .news-title {
     color: green;
 }
+
 .news-content {
     color: gray;
 }
-.newsArea h2, #websiteNews h2{
+
+.newsArea h2, #websiteNews h2 {
     margin-left: 2%;
     font-size: 130%;
 }
 
-/*Horrid css incoming*/
 footer {
     background-color: green;
     color: white;
