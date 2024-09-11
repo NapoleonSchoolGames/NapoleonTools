@@ -55,7 +55,8 @@ header a, p, img {
 }
 
 .adArea {
-    top: 25%; /* Adjusted to position below the second banner */
+    top: 25%;
+    position: absolute;
     height: 20%;
     width: 100%;
     left: 0;
