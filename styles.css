@@ -55,7 +55,7 @@ header a, p, img {
 }
 
 .adArea {
-    top: 20%;
+    top: 25%; /* Adjusted to position below the second banner */
     height: 20%;
     width: 100%;
     left: 0;
@@ -66,12 +66,7 @@ header a, p, img {
     background-color: blue;
     position: relative;
     height: 100%;
-    margin: 0 auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    left: 0;
 }
 
 #rightAd {
@@ -79,12 +74,7 @@ header a, p, img {
     width: 50%;
     position: relative;
     height: 100%;
-    margin: 0 auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    right: 50%
 }
 
 #newsContainer {
