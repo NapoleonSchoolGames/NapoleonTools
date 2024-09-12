@@ -74,9 +74,9 @@ header a, p, img {
 }
 
 .gameArea {
+    height: calc(30vh * 4);
     position: absolute;
     top: 40%;
-    height: calc(30vh * 4);
     width: 80%;
     left: 0;
 }
