@@ -11,8 +11,8 @@ header {
     color: green;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     margin: 0;
     height: 15%;
 }
@@ -32,7 +32,7 @@ header a, p, img {
     width: 100%;
     position: absolute;
     top: 15%;
-    left: 0;
+    left: 0px;
     margin: 0;
     height: 10%;
 }
@@ -56,7 +56,7 @@ header a, p, img {
     position: absolute;
     height: 20%;
     width: 100%;
-    left: 0;
+    left: 0px;
 }
 #leftAd {
     background-color: blue;
@@ -76,22 +76,23 @@ header a, p, img {
 .gameArea {
     height: calc(30vh * 4);
     position: absolute;
-    top: 40%;
+    top: 45%;
     width: 80%;
-    left: 0;
+    left: 0px;
 }
 #search-bar {
     width: 100%;
 }
 #game-selection {
     width: 20%;
-    left: 0;
+    left: 0px;
     height: 100%;
     position: absolute;
 }
 #iframe {
     left: 20%;
-    height: 80%;
+    width: 80%;
+    height: 100%;
     position: absolute;
 }
 
@@ -127,7 +128,7 @@ footer {
     color: white;
     position: absolute;
     width: 100%;
-    left: 0;
+    left: 0px;
     top: calc(15% + 10% + 10% + 20% + (30vh * 4));
     height: auto;
 }
