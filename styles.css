@@ -83,6 +83,15 @@ header a, p, img {
 #search-bar {
     width: 100%;
 }
+#game-selection {
+    width: 20%;
+    left: 0;
+    height: 100%;
+}
+#iframe {
+    left: 20%;
+    height: 100%;
+}
 
 #websiteNews {
     width: 20%;
