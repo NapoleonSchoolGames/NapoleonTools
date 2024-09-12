@@ -90,6 +90,9 @@ header a, p, img {
     height: 90%;
     position: absolute;
 }
+#game-selection img {
+    width: 100%;
+}
 #iframe {
     left: 20%;
     width: 80%;
