@@ -14,8 +14,8 @@
         </header>
         <div id="secondBanner">
             <div class="bannerItem">
+                <button onclick="fullscreen();">Fullscreen</button>
                 <p><a href="https://ncsdp.powerschool.com/">Powerschool</a></p>
-                <p><a href="https://diep.dragonterror.org/">Diep.IO</a></p>
                 <p><a href="https://classroom.google.com/">Google Classroom</a></p>
             </div>
         </div>
@@ -27,15 +27,14 @@
                 <p>YOU could have THIS ad space for as little as $3/month! Email me for more info!</p>
             </div>
         </div>
-        <div class="newsArea">
-            <div id="newsContainer">
-                <h2>School News</h2>
-                <div id="news1"></div>
-                <div id="news2"></div>
+        <div class="gameArea">
+            <div id="game-selection">
+                <input type="text" id="search-bar" onkeyup="searchGames()" placeholder="Search for games..">
             </div>
-            <div id="websiteNews">
-                <h2>Website News</h2>
-            </div>
+            <div id="iframe"></div>
+        </div>
+        <div id="websiteNews">
+            <h2>Website News</h2>
         </div>
         <footer>
             <h1>Made by Logan Kish</h1>
@@ -43,5 +42,11 @@
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="script.js"></script>
         <script src="https://chii.dragonterror.org/target.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            addEventListener("DOMContentLoaded", (event) => {loadGames();});
+            document.addEventListener("fullscreenchange", fullscreenchanged);
+        </script>
     </body>
 </html>

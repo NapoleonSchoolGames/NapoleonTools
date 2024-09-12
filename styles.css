@@ -16,7 +16,6 @@ header {
     margin: 0;
     height: 15%;
 }
-
 header a, p, img {
     color: green;
     font-size: 125%;
@@ -37,12 +36,10 @@ header a, p, img {
     margin: 0;
     height: 10%;
 }
-
 #secondBanner a, p {
     color: white;
     font-size: 125%;
 }
-
 .bannerItem {
     position: relative;
     width: 100%;
@@ -61,7 +58,6 @@ header a, p, img {
     width: 100%;
     left: 0;
 }
-
 #leftAd {
     background-color: blue;
     width: 50%;
@@ -69,7 +65,6 @@ header a, p, img {
     height: 97%;
     float: left;
 }
-
 #rightAd {
     background-color: red;
     width: 50%;
@@ -78,16 +73,15 @@ header a, p, img {
     float:right;
 }
 
-#newsContainer {
-    left: 0;
-    width: 80%;
-    margin-top: 2%;
+.gameArea {
     position: absolute;
-    border-color: green;
-    border-left: 3%;
-    border-style: solid;
-    height: auto;
     top: 40%;
+    height: auto;
+    width: 80%;
+    left: 0;
+}
+#search-bar {
+    width: 100%;
 }
 
 #websiteNews {
@@ -102,13 +96,6 @@ header a, p, img {
     border-style: solid;
     height: auto;
 }
-
-#news1, #news2 {
-    width: 50%;
-    float: left;
-    position: relative;
-}
-
 .news {
     border-top: 1%;
     border-color: green;
@@ -116,20 +103,10 @@ header a, p, img {
     border-style: solid;
     height: 30vh;
 }
-
-.news-image {
-    width: 100%;
-}
-
-.news-title {
-    color: green;
-}
-
-.news-content {
-    color: gray;
-}
-
-.newsArea h2, #websiteNews h2 {
+.news-image {width: 100%;}
+.news-title {color: green;}
+.news-content {color: gray;}
+#websiteNews h2, p {
     margin-left: 2%;
     font-size: 130%;
 }
