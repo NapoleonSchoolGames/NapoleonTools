@@ -76,17 +76,18 @@ header a, p, img {
 .gameArea {
     height: calc(30vh * 4);
     position: absolute;
-    top: 45%;
+    top: 44%;
     width: 80%;
     left: 0px;
 }
 #search-bar {
     width: 100%;
+    height: 10%;
 }
 #game-selection {
     width: 20%;
     left: 0px;
-    height: 100%;
+    height: 90%;
     position: absolute;
 }
 #iframe {
@@ -101,7 +102,7 @@ header a, p, img {
     left: 80%;
     margin-top: 2%;
     position: absolute;
-    top: 40%;
+    top: 45%;
     border-color: green;
     border-left: 3%;
     border-right: 3%;
@@ -129,6 +130,6 @@ footer {
     position: absolute;
     width: 100%;
     left: 0px;
-    top: calc(15% + 10% + 10% + 20% + (30vh * 4));
+    top: calc(15% + 10% + 10% + (30vh * 4));
     height: auto;
 }
