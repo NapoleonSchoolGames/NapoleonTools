@@ -76,7 +76,7 @@ header a, p, img {
 .gameArea {
     position: absolute;
     top: 40%;
-    height: (30vh * 4);
+    height: calc(30vh * 4);
     width: 80%;
     left: 0;
 }
@@ -105,7 +105,7 @@ header a, p, img {
     border-left: 3%;
     border-right: 3%;
     border-style: solid;
-    height: (30vh * 4);
+    height: calc(30vh * 4);
 }
 .news {
     border-top: 1%;
