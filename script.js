@@ -48,6 +48,7 @@ function storeUserName() {
 if (!localStorage.getItem("NSTName")) {
     storeUserName();
 }
-const name = localStorage.getItem("NSTName")
-document.getElementById("welcomeTag").innerText(`Welcome back, ${NSTName}`)
-generateNews('./json/news.json', 'websiteNews', 'websiteNews', 4)
+const name = localStorage.getItem("NSTName") || "Guest";
+const welcomeElement = document.getElementById("welcomeTag");
+welcomeElement.innerText = `Welcome back, ${name}`;
+generateNews('./json/news.json', 'websiteNews', 'websiteNews', 99)
