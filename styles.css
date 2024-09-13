@@ -84,15 +84,20 @@ header a, p, img {
 #search-bar {
     width: 100%;
     height: 10%;
+    margin: 0;
+    padding: 0;
 }
 #game-selection {
     width: 20%;
     left: 0px;
     height: 100%;
     position: absolute;
+    overflow-y: hidden;
 }
 #game-selection img {
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 #iframe {
     left: 20%;
