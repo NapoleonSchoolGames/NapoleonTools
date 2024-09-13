@@ -39,4 +39,13 @@ function createNewsElement(title, content, image) {
     return element;
 }
 
+function storeUserName() {
+    const userName = prompt("Please enter your name:");
+    localStorage.removeItem("NSTName")
+    localStorage.setItem("NSTName", userName);
+}
+
+if (!localStorage.getItem("NSTName")) {
+    storeUserName();
+}
 generateNews('./json/news.json', 'websiteNews', 'websiteNews', 4)
