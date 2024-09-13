@@ -72,6 +72,16 @@ header a, header p, header img {
     height: 97%;
     float:right;
 }
+#bigAd {
+    background-color: green;
+    width: 100%;
+    position: relative;
+    height: 90%;
+}
+#bigAd p {
+    text-align: center;
+    font-size: 200%;
+}
 
 .gameArea {
     height: calc(2% + (30vh * 4));
@@ -85,9 +95,6 @@ header a, header p, header img {
 #search-bar {
     width: 100%;
     height: 10%;
-    margin: 0;
-    padding: 0;
-    margin-top: -8%;
 }
 #game-selection {
     width: 20%;
