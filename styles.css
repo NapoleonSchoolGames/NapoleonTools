@@ -16,7 +16,7 @@ header {
     margin: 0;
     height: 15%;
 }
-header a, p, img {
+header a, header p, header img {
     color: green;
     font-size: 125%;
     position: relative;
@@ -80,19 +80,20 @@ header a, p, img {
     width: 80%;
     left: 0px;
     height: 120vh;
+    overflow-y: hidden;
 }
 #search-bar {
     width: 100%;
     height: 10%;
     margin: 0;
     padding: 0;
+    margin-top: -8%;
 }
 #game-selection {
     width: 20%;
     left: 0px;
     height: 100%;
     position: absolute;
-    overflow-y: hidden;
 }
 #game-selection img {
     width: 100%;
@@ -127,7 +128,7 @@ header a, p, img {
 .news-image {width: 100%;}
 .news-title {color: green;}
 .news-content {color: gray;}
-#websiteNews h2, p {
+#websiteNews h2, #websiteNews p {
     margin-left: 2%;
     font-size: 130%;
 }
