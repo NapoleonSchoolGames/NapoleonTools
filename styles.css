@@ -77,8 +77,9 @@ header a, p, img {
     height: calc(30vh * 4);
     position: absolute;
     top: 44%;
-    width: 120vh;
+    width: 80%;
     left: 0px;
+    height: 120vh;
 }
 #search-bar {
     width: 100%;
