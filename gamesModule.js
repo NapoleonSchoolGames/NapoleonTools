@@ -9,7 +9,7 @@ function loadGames() {
         img.src = `./games/images/${game.name}.jpg`;
         img.alt = `${game.name}`;
         img.addEventListener('click', () => {
-          game.flash ? loadGame(`./games/flash.html?swf=${swf}`) : game.externalUrl ? loadGame(`${game.url}`) : loadGame(`./games/${game.name}/index.html`);
+          game.flash ? loadGame(`./games/flash.html?swf=${swf}`) : game.externalUrl ? loadGame(`${game.url}`) : loadGame(`./games/gamefiles/${game.name}/index.html`);
         });
         gameSelectionDiv.appendChild(img);
       });
