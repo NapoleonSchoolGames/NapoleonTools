@@ -46,6 +46,8 @@ header a, header p {
     margin: 0 auto;
     margin-top: 1%;
     margin-bottom: 1%;
+    top: 5%;
+    bottom: 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
