@@ -4,7 +4,7 @@
       "flash": false,
       "externalUrl": true,
       "url": "https://diep.dragonterror.org",
-      "replace": false
+      "replace": true
     },
     {
       "name": "adarkroom",
