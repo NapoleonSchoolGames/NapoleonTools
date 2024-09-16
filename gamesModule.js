@@ -10,7 +10,7 @@ function loadGames() {
         img.alt = `${game.name}`;
         img.addEventListener('click', () => {
           if (game.replace) {
-            window.location.replace(game.externalUrl);
+            window.location.replace(game.url);
           } else {
             game.flash ? loadGame(`./games/flash.html?swf=${swf}`) : loadGame(game.externalUrl ? game.url : `./games/gamefiles/${game.name}/index.html`);
           }
