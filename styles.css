@@ -16,8 +16,8 @@ header {
     margin: 0;
     height: 15%;
 }
-/*
-header a, header p, header img {
+header img {float: left;}
+header a, header p {
     color: green;
     font-size: 125%;
     position: relative;
@@ -26,7 +26,6 @@ header a, header p, header img {
     top: 7.5%;
     bottom: 7.5%;
 }
-*/
 #secondBanner {
     background-color: green;
     color: white;
