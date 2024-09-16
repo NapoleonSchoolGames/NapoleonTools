@@ -3,12 +3,14 @@
       "name": "diep",
       "flash": false,
       "externalUrl": true,
-      "url": "https://diep.dragonterror.org"
+      "url": "https://diep.dragonterror.org",
+      "replace": true
     },
     {
       "name": "adarkroom",
       "flash": false,
       "externalUrl": false,
-      "url": ""
+      "url": "",
+      "replace": false
     }
 ]

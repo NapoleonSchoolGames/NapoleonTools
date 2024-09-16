@@ -9,7 +9,11 @@ function loadGames() {
         img.src = `./games/images/${game.name}.jpg`;
         img.alt = `${game.name}`;
         img.addEventListener('click', () => {
-          game.flash ? loadGame(`./games/flash.html?swf=${swf}`) : game.externalUrl ? loadGame(`${game.url}`) : loadGame(`./games/gamefiles/${game.name}/index.html`);
+          if (game.replace) {
+            window.location.replace(game.externalUrl);
+          } else {
+            game.flash ? loadGame(`./games/flash.html?swf=${swf}`) : loadGame(game.externalUrl ? game.url : `./games/gamefiles/${game.name}/index.html`);
+          }
         });
         gameSelectionDiv.appendChild(img);
       });
