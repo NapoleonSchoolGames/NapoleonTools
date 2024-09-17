@@ -4,6 +4,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     text-decoration: none;
+    color: white;
 }
 
 header {
@@ -36,18 +37,15 @@ header a, header p {
     margin: 0;
     height: 10%;
 }
-#secondBanner a, p {
+#secondBanner * {
     color: white;
     font-size: 125%;
+    float: right;
+    width: auto;
+    margin: auto;
+    margin-right: 8%;
 }
 .bannerItem {
-    position: relative;
-    width: auto;
-    margin: 0 auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    top: 5%;
-    bottom: 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -152,8 +150,4 @@ footer {
     height: auto;
 }
 
-
-
-.swal2-icon {
-    overflow-y: hidden;
-}
+.swal2-icon {overflow-y: hidden;}
