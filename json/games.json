@@ -16,8 +16,8 @@
     {
       "name": "nzp",
       "flash": false,
-      "externalUrl": false,
-      "url": "",
+      "externalUrl": true,
+      "url": "http://nzp.dragonterror.org/",
       "replace": false
     }
 ]
