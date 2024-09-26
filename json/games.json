@@ -28,5 +28,15 @@
       "prompt": true,
       "promptMsg": "MULTIPLAYER \nMultiplayer is kind of fucked, but you can go to the link below for a tutorial on how",
       "promptBox": "[NO TUTORIAL YET]"
+    },
+    {
+      "name": "blockblast",
+      "flash": false,
+      "externalUrl": false,
+      "url": "",
+      "replace": false,
+      "prompt": false,
+      "promptMsg": "",
+      "promptBox": ""
     }
 ]
