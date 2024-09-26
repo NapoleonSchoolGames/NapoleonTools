@@ -9,6 +9,9 @@ function loadGames() {
         img.src = `./games/images/${game.name}.jpg`;
         img.alt = `${game.name}`;
         img.addEventListener('click', () => {
+          if (game.prompt) {
+            prompt(game.promptMsg, game.promptBox);
+          }
           if (game.externalUrl & game.replace) {
             window.location.replace(game.url);
           } else if (game.externalUrl) {
