@@ -25,9 +25,9 @@
       "externalUrl": true,
       "url": "http://nzp.dragonterror.org/game/",
       "replace": true,
-      "prompt": true,
-      "promptMsg": "MULTIPLAYER \nMultiplayer is kind of fucked, but you can go to the link below for a tutorial on how",
-      "promptBox": "[NO TUTORIAL YET]"
+      "prompt": false,
+      "promptMsg": "",
+      "promptBox": ""
     },
     {
       "name": "blockblast",
